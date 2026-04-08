@@ -141,3 +141,4 @@ ls /data4/ashok/REPROCESSING/DATA/outdir/<FOLDER_NAME>/
 # Expected files: summary.json, alerts.json, summary_ld.json, inward_cached.obsdata
 ```
 
+note: all the code, data is accessible from inside/outside the docker with same paths.
