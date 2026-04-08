@@ -33,7 +33,9 @@ cd /data4/ashok/REPROCESSING/analytics
 
 mkdir -p ../alerts_dir/all
 
-python dbutil/syncalert.py --avids <AVID> \
+python dbutil/syncalert.py --avids <AVID> \  # or --alerts <ALERT_ID>
+# Note: folder name in basedir will be aavid (if using --avids) or aaid (if using --alerts)
+#       Check syncalert output to see the folder name created
   --download-dir /data4/ashok/REPROCESSING/alerts_dir \
   --download-symlink-dir /data4/ashok/REPROCESSING/alerts_dir
 ```
@@ -48,7 +50,7 @@ python src/reprocess.py --dnn-processing-mode ipe --dnn-runtime-library tensorrt
   --basedir /data4/ashok/REPROCESSING/alerts_dir/all \
   --disable-inertial \
   --product-line bagheera2 --locale US \
-  --alerts <AVID>
+  --alerts <FOLDER_NAME>  # folder name from syncalert (aavid if --avids, aaid if --alerts)
 ```
 
 ## DMS (use only if session is DMS)
@@ -72,7 +74,7 @@ python src/reprocess.py --dnn-processing-mode ipe --dnn-runtime-library tensorrt
   --product-line bagheera3 \
   --disable-inward \
   --locale US \
-  --alerts <AVID>
+  --alerts <FOLDER_NAME>  # folder name from syncalert (aavid if --avids, aaid if --alerts)
 ```
 
 **Note:** If config changes don't take effect, run reprocessing twice instead of removing nd_config.ini.
@@ -80,7 +82,7 @@ python src/reprocess.py --dnn-processing-mode ipe --dnn-runtime-library tensorrt
 ## Verify Output
 
 ```bash
-ls /data4/ashok/REPROCESSING/DATA/outdir/<AVID>/
+ls /data4/ashok/REPROCESSING/DATA/outdir/<FOLDER_NAME>/
 # Expected files: summary.json, alerts.json, summary_ld.json, inward_cached.obsdata
 ```
 

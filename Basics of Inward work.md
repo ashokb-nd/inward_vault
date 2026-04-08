@@ -29,3 +29,7 @@ I use the following
 
 ### data
 - all reprocessing related data & code are present at '/data4/ashok/REPROCESSING/'. data (inputs/outputs etc) at './DATA/'
+
+## Updating Instructions
+- These instruction files are not complete or foolproof
+- When you learn something new or encounter issues, update the relevant vault files.
