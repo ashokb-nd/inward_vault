@@ -80,7 +80,7 @@ python src/reprocess.py --dnn-processing-mode ipe --dnn-runtime-library tensorrt
 ## Verify Output
 
 ```bash
-ls /data4/ashok/REPROCESSING/outdir/<AVID>/
+ls /data4/ashok/REPROCESSING/DATA/outdir/<AVID>/
 # Expected files: summary.json, alerts.json, summary_ld.json, inward_cached.obsdata
 ```
 
