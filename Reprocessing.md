@@ -85,6 +85,10 @@ python dbutil/syncalert.py --avids <AVID> \  # or --alerts <ALERT_ID>
 
 - Driver-i, Bagheera2, US are defaults
 - for dnn-processing-mode default is 'ipe'
+
+config files
+- config files are present in ./analytics/src/nd_config_*.ini
+- each one is specific to a locate, product-line
 ### Driver-i
 
 ```bash
@@ -112,8 +116,7 @@ enabled = 1
 2. disable inward. ( we are not using it).
 3. --dnn-processing-mode = ipe . (doesn't work if metadata)
 4. use bagheera3 
-5. (optional, only if faces some issue with it) remove nd_config.ini file (sometimes it won't update. stale values are used.) -> don't remove. just run reprocessing twice. 
-6. fetch-all models from that config
+5. fetch-all models from that config
 
 ```sh
 ak fetch_all_models
