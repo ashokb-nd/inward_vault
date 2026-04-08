@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Opencode - prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reprocessing"
+              "title": "Opencode - prompt"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Opencode - prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Reprocessing"
+              "title": "Backlinks for Opencode - prompt"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Opencode - prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Reprocessing"
+              "title": "Outgoing links from Opencode - prompt"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Opencode - prompt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Reprocessing"
+              "title": "Outline of Opencode - prompt"
             }
           }
         ]
@@ -186,9 +186,9 @@
   },
   "active": "cc95e5dca31fa489",
   "lastOpenFiles": [
+    "Reprocessing.md",
     "Opencode - prompt.md",
     "Basics of Inward work.md",
-    "Reprocessing.md",
     "Index.md"
   ]
 }
