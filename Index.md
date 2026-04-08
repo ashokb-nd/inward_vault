@@ -1,5 +1,5 @@
 
-first start with an overview : [[Basics of Inward work]]
+Must Read this overview : [[Basics of Inward work]]
 
 later pick your task related instructions
 
