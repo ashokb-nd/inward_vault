@@ -42,6 +42,8 @@ python dbutil/syncalert.py --avids <AVID> \  # or --alerts <ALERT_ID>
 
 ## Reprocess
 
+- Reprocess command must be run inside the docker container.
+
 ```bash
 export PYTHONPATH=/data4/ashok/REPROCESSING/analytics:$PYTHONPATH
 
@@ -66,6 +68,7 @@ python src/reprocess.py --dnn-processing-mode ipe --dnn-runtime-library tensorrt
 ak fetch_all_models
 
 # 4. Run reprocess
+
 export PYTHONPATH=/data4/ashok/REPROCESSING/analytics/src:$PYTHONPATH
 
 python src/reprocess.py --dnn-processing-mode ipe --dnn-runtime-library tensorrt \
