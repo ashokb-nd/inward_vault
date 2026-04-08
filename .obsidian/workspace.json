@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Basics of Inward work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reprocessing"
+              "title": "Basics of Inward work"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Basics of Inward work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Reprocessing"
+              "title": "Backlinks for Basics of Inward work"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Basics of Inward work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Reprocessing"
+              "title": "Outgoing links from Basics of Inward work"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Basics of Inward work.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Reprocessing"
+              "title": "Outline of Basics of Inward work"
             }
           }
         ]
@@ -186,8 +186,8 @@
   },
   "active": "cc95e5dca31fa489",
   "lastOpenFiles": [
-    "Basics of Inward work.md",
     "Reprocessing.md",
+    "Basics of Inward work.md",
     "Opencode - prompt.md",
     "Index.md"
   ]

@@ -17,9 +17,10 @@ Multiple configs
 
 # EC2 related
 we use an EC2 for our work. it is shared by our team.
-I use the following
-- conda env : 'ashok'
 
+### conda env
+- always run python code in 'ashok' conda environment.
+- activate this env if not already.
 ### Usage of screen 
 - I use screen to run detachable scripts. my reprocessing often goes like this
 	- make a screen with name 'ashok_trt' 
