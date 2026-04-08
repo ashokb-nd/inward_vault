@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "657c08293fa6399e",
+        "id": "32e2a226b5c0498c",
         "type": "tabs",
         "children": [
           {
-            "id": "283c0bfb632767a2",
+            "id": "cc95e5dca31fa489",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Opencode - prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reprocessing"
+              "title": "Opencode - prompt"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Opencode - prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Reprocessing"
+              "title": "Backlinks for Opencode - prompt"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Opencode - prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Reprocessing"
+              "title": "Outgoing links from Opencode - prompt"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reprocessing.md",
+                "file": "Opencode - prompt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Reprocessing"
+              "title": "Outline of Opencode - prompt"
             }
           }
         ]
@@ -180,12 +180,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "283c0bfb632767a2",
+  "active": "cc95e5dca31fa489",
   "lastOpenFiles": [
-    "Basics of alerts.md",
-    "Reprocessing.md"
+    "Index.md",
+    "Opencode - prompt.md",
+    "Reprocessing.md",
+    "Basics of Inward work.md"
   ]
 }
