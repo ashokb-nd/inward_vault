@@ -26,3 +26,6 @@ I use the following
 	- attach the docker inside the screen 
 	- run the reprocessing. it often takes time so detach if needed. 
 	- and keep the screen. use it again if i need to reprocess in future.
+
+### data
+- all reprocessing related data & code are present at '/data4/ashok/REPROCESSING/'. data (inputs/outputs etc) at './DATA/'
